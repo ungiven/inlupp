@@ -18,7 +18,6 @@ public class GSApi {
         this.data = this.urlHandler.getContent();
 
         this.jsonHandler = new JSONHandler(this.data);
-
     }
 
     public String getRow(int index) {

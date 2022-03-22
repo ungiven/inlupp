@@ -28,7 +28,6 @@ public class URLHandler {
             e.printStackTrace();
         }
 
-        //this.content = content.replace(0,1, "").replace(content.length()-2, content.length()-1, "").toString();
         this.content = content.toString();
     }
 
