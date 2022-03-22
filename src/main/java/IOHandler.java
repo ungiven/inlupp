@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class IOHandler {
 
     private GSApi api;
-    private String[] keywords = {"help", "exit", "get <N>"};
+    private String[] keywords = {"help", "exit", "get <N>", "all"};
     private Scanner console;
 
     public IOHandler(GSApi api) {
@@ -27,6 +27,10 @@ public class IOHandler {
 
             if (splitInput[0].equals("get")) {
                 return this.api.getRow(Integer.parseInt(splitInput[1]));
+            }
+
+            if (splitInput[0].equals("all")) {
+                return this.api.getData();
             }
 
         } catch (Exception e) {
