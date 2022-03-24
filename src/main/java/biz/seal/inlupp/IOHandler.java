@@ -1,3 +1,5 @@
+package biz.seal.inlupp;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

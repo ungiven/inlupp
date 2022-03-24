@@ -1,3 +1,5 @@
+package biz.seal.inlupp;
+
 public class GSApi {
 
     private String sheetId;

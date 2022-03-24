@@ -1,3 +1,5 @@
+package biz.seal.inlupp;
+
 import org.json.JSONArray;
 
 public class JSONHandler {
