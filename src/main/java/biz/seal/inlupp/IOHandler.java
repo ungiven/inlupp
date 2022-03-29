@@ -14,9 +14,9 @@ public class IOHandler {
         this.console = new Scanner(System.in);
     }
 
-    public String read() {
-        String userInput = console.nextLine();
-        return this.handle(userInput);
+    public void read() {
+        String userInput = this.console.nextLine();
+        System.out.println(this.handle(userInput));
     }
 
     public String handle(String userInput) {

@@ -1,6 +1,9 @@
-plugins {
+/*plugins {
     id 'java'
-}
+}*/
+
+apply plugin: 'application'
+apply plugin: 'java'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
@@ -20,4 +23,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+application {
+    mainClassName = 'biz.seal.inlupp.App'
 }

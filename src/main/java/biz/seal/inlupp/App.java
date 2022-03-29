@@ -8,7 +8,7 @@ public class App {
         IOHandler io = new IOHandler(api);
 
         for(;;) {
-            System.out.println(io.read());
+            io.read();
         }
     }
 }
