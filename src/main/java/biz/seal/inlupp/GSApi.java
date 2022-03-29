@@ -29,12 +29,4 @@ public class GSApi {
     public String getData() {
         return this.data;
     }
-
-    public String getUrl() {
-        return this.urlHandler.getURL();
-    }
-
-    public String toString() {
-        return this.data;
-    }
 }

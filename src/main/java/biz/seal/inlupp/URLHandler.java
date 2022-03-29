@@ -7,8 +7,8 @@ import java.net.URLConnection;
 
 public class URLHandler {
 
-    public String content;
-    public String url;
+    private String content;
+    private String url;
 
     public URLHandler(String url) {
         StringBuilder content = new StringBuilder();

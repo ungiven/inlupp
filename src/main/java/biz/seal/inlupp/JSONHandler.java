@@ -18,8 +18,4 @@ public class JSONHandler {
         return this.obj.get(index).toString();
     }
 
-    public String getKey(String key) {
-        return "";
-    }
-
 }
